@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Crimson+Pro:wght@200;300;400&family=Lato:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.imagem-inicial {
+    display: flex;
+}
+
+.imagem-inicial img {
+    position: absolute;
+}
+
+.imagem-inicial svg {
+    display: block;
+    
+    margin: 100px auto;
+}
+
+.texto-inicial {
+
+}
+
+.texto-inicial h1 {
+    font-weight: 600;
+    font-size: 36px;
+
+    text-align: center;
+}
+
+.texto-inicial p {
+    margin-top: 25px;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    word-wrap: break-word;
+
+    color: hsl(210, 10%, 33%);
+}
