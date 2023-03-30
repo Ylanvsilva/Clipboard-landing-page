@@ -18,25 +18,107 @@ body {
     margin: 100px auto;
 }
 
-.texto-inicial {
-
-}
-
 .texto-inicial h1 {
     font-weight: 600;
     font-size: 36px;
 
     text-align: center;
+
+    color: rgba(0, 0, 0, 0.705);
 }
 
 .texto-inicial p {
     margin-top: 25px;
 
     font-size: 18px;
-
+    line-height: 30px;
     text-align: center;
 
     word-wrap: break-word;
 
-    color: hsl(210, 10%, 33%);
+    color: hsla(212, 10%, 33%, 0.699);
+}
+
+.botao {
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao1 {
+    border-radius: 50px;
+
+    height: 50px;
+    width: 200px;
+
+    margin-right: 20px;
+
+    border: none;
+
+    box-shadow: hsl(172, 61%, 15%) 0px 3px 8px;
+
+    background-color: hsl(171, 66%, 44%);
+}
+
+.botao2 {
+    border-radius: 50px;
+
+    height: 50px;
+    width: 200px;
+
+    border: none;
+
+    box-shadow: hsl(235, 52%, 14%) 0px 3px 8px;
+
+    background-color: hsl(233, 100%, 69%)
+}
+
+.botao h3 {
+    color: white;
+
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.pagina-trechos {
+    display: block;
+
+    margin-top: 150px;
+}
+
+.texto-trechos h2 {
+    font-size: 30px;
+    
+    text-align: center;
+
+    font-weight: 600;
+
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.texto-trechos p {
+    margin-top: 20px;
+
+    color: rgba(0, 0, 0, 0.507);
+
+    font-size: 16px;
+
+    text-align: center;
+    line-height: 30px;
+}
+
+.texto-img-trechos {
+    margin-top: 70px;
+
+    display: flex;
+}
+
+.img-trechos {
+    margin-right: 100px;
+}
+
+.sinopse-trechos {
+    outline: 1px solid salmon;
 }
