@@ -10,6 +10,8 @@ body {
 
 .imagem-inicial img {
     position: absolute;
+
+    width: 100vw;
 }
 
 .imagem-inicial svg {
@@ -119,5 +121,48 @@ body {
 }
 
 .sinopse-trechos {
-    outline: 1px solid salmon;
+    height: 500px;
+    width: 600px;
+
+    margin-top: 80px;
+}
+
+.sinopse-trechos h3 {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 50px;
+
+    color: rgba(0, 0, 0, 0.836);
+}
+
+.sinopse-trechos form {
+    margin-top: 45px;
+}
+
+.prancheta {
+    margin-top: 100px;
+
+    line-height: 50px;
+}
+
+.texto-prancheta h3 {
+    font-size: 32px;
+    font-weight: bold;
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.651);
+}
+
+.texto-prancheta p {
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.img-prancheta {
+    margin-top: 80px;
+
+    text-align: center;
 }
