@@ -166,3 +166,73 @@ body {
 
     text-align: center;
 }
+
+.fluxo-trabalho h3 {
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.712);
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fluxo-trabalho h5 {
+    margin-top: 20px;
+
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.418);
+}
+
+.fluxo-ex {
+    margin-top: 70px;
+
+    display: flex;
+}
+
+.exemplos {
+    width: 100vw;
+    text-align: center;
+
+    margin: 0 20px;
+}
+
+.exemplos h4 {
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.exemplos p {
+    width: 600px;
+    margin-top: 20px;
+
+    word-break: keep-all;
+
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.sites {
+    margin-top: 100px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sites section {
+    padding: 20px;
+
+    width: 300px;
+}
+
+.img-sites {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
