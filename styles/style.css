@@ -64,6 +64,16 @@ body {
     color: white;
 
     font-weight: bold;
+
+    cursor: pointer;
+}
+
+.botao1:hover {
+    background-color: hsl(171, 98%, 49%);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    transition: all 0.3s ease-out;
 }
 
 .botao2 {
@@ -76,10 +86,20 @@ body {
 
     box-shadow: hsl(235, 52%, 14%) 0px 3px 8px;
 
-    background-color: hsl(233, 100%, 69%);
+    background-color: hsl(233, 49%, 53%);
     color: white;
 
     font-weight: bold;
+
+    cursor: pointer;
+}
+
+.botao2:hover {
+    background-color: hsl(233, 96%, 73%);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    transition: all 0.3s ease-out;
 }
 
 .botao h3 {
@@ -241,4 +261,67 @@ body {
     
     align-items: center;
     justify-content: center;
+}
+
+.prancheta-final {
+    margin-top: 100px;
+
+    text-align: center;
+}
+
+.prancheta-final h3 {
+    font-weight: bold;
+    font-size: 28px;
+
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.prancheta-final p {
+    margin-top: 20px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.prancheta-final button {
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+
+    height: 100px;
+
+    margin-top: 100px;
+
+    background-color: rgba(128, 128, 128, 0.103);
+
+    align-items: center;
+    justify-content: space-around;
+
+    line-height: 40px;
+}
+
+footer h6 {
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    height: 30px;
+    width: 110px;
+}
+
+footer h6:hover {
+    color: hsl(171, 75%, 51%);
+
+    transition: all 0.3s ease-out;
+}
+
+footer img {
+    height: 50px;
+}
+
+.footer-icon img {
+    height: 20px;
+
+    margin-right: 20px;
 }
