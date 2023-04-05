@@ -324,4 +324,12 @@ footer img {
     height: 20px;
 
     margin-right: 20px;
+
+    cursor: pointer;
+}
+
+.footer-icon img:hover {
+    transition: all 0.3s ease-out;
+
+    filter: blur(0px) brightness(200%) contrast(100%) drop-shadow(3px 3px 1px #05ffda) grayscale(0%) hue-rotate(45deg) invert(0%) opacity(100%) saturate(100%) sepia(0%);
 }
